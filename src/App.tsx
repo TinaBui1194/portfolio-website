@@ -4,7 +4,7 @@ import { Github, Linkedin, Send } from "lucide-react";
 
 export function App() {
 	return (
-		<div className="flex min-h-screen w-full justify-center items-center">
+		<div className="flex min-h-dvh w-full justify-center items-center">
 			<Card className="h-auto w-11/12 lg:w-1/2">
 				<CardContent className="pt-10">
 					<div className="flex flex-col items-center space-y-4">
