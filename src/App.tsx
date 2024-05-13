@@ -5,9 +5,9 @@ import { Github, Linkedin, Send } from "lucide-react";
 export function App() {
 	return (
 		<div className="flex min-h-screen w-full justify-center items-center">
-			<Card className="h-1/4 w-2/5">
+			<Card className="h-auto w-11/12 lg:w-1/2">
 				<CardContent className="pt-10">
-					<div className="flex space-x-4">
+					<div className="flex flex-col items-center space-y-4">
 						<Avatar className="h-20 w-20">
 							<AvatarImage
 								src="https://github.com/tinathuybui.png"
@@ -17,7 +17,7 @@ export function App() {
 							<AvatarFallback>TB</AvatarFallback>
 						</Avatar>
 
-						<div>
+						<div className="text-center">
 							<h1 className="text-3xl font-bold">Tina Bui</h1>
 							<p className="text-xl text-gray-500 pt-5">
 								Verrsatile individual with an accounting background
